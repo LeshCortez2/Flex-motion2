@@ -1,0 +1,48 @@
+FLEX-MOTION/
+│
+├── backend/
+│   ├── package.json
+│   ├── server.js
+│   ├── .env.example
+│   ├── config/
+│   │   ├── db.js
+│   │   ├── auth.js
+│   │   └── payment.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── rideRoutes.js
+│   │   ├── driverRoutes.js
+│   │   └── paymentRoutes.js
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Ride.js
+│   │   └── Rating.js
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   └── errorHandler.js
+│   └── utils/
+│       ├── maps.js
+│       └── socket.js
+│
+├── admin-dashboard/
+│   ├── package.json
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── components/
+│   │   │   ├── Login.js
+│   │   │   ├── Dashboard.js
+│   │   │   └── DriverList.js
+│   │   └── styles.css
+│
+├── mobile-app/
+│   ├── package.json
+│   ├── App.js
+│   ├── screens/
+│   │   ├── HomeScreen.js
+│   │   ├── RideScreen.js
+│   │   └── ChatScreen.js
+│   └── components/
+│       ├── MapView.js
+│       └── QuickMessage.js
+│
+└── README.md
